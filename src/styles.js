@@ -43,6 +43,7 @@ export const Button = styled.button`
     color: whitesmoke;
     border-color: #555;
     transition: all 0.15s ease;
+    word-spacing: 3px;
 
     :hover{
         background-color: ${props => colorsType.get(props.color)};

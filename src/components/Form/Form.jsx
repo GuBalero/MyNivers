@@ -50,9 +50,7 @@ const Form = ({date, setDate, name, changeName, addNiver, editNiver, id}) => {
                             />
                     </InputControl>
 
-                    <br/><br/>
-
-                    <GroupButtons>
+                    <GroupButtons style={{marginTop:"30px"}}>
                         <Link to="/">
                             <Button color="default" type="button"> CANCELAR</Button>
                         </Link>

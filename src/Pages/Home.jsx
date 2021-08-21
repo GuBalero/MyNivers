@@ -8,8 +8,8 @@ const Home = () => (
         <NavBar/>
         <Container background="#1d1d1d" height="88vh" width="100%">
             <AccordionContainer position="rigth"/>
-            <br/>
-            <GroupButtons>
+            
+            <GroupButtons style={{marginTop: "20px"}}> 
                 <Link to="/register">
                     <Button color="default" size="bg">ADICIONAR NIVER</Button>
                 </Link>
